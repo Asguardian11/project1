@@ -12,23 +12,35 @@
         <h1>My Profile</h1>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Hobbies</li>
-                <li>Contact</li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Bio Section -->
-    <section>
+    <section id="about">
         <h2>About Me</h2>
-        <p>Hello! My name is Muhammad Galo. I am a passionate software developer currently pursuing a Bachelor's degree in ICT. I have a strong interest in backend development, and I enjoy creating web and mobile applications.</p>
-        <p>Aside from coding, I love exploring new technologies and improving my skills in PHP for backend development. I am also working on an eCommerce website where only the admin can add products.</p>
-        <img src="profile.jpg" alt="My Profile Picture">
+        <p>Hello! My name is John Doe. I am a passionate software developer currently pursuing a Bachelor's degree in ICT. I specialize in backend development and love working with PHP.</p>
+
+        <h3>Skills & Projects</h3>
+        <dl>
+            <dt>Backend Development</dt>
+            <dd>Proficient in PHP and MySQL, building secure and scalable web applications.</dd>
+
+            <dt>Web Development</dt>
+            <dd>Creating dynamic websites using HTML, CSS, and JavaScript.</dd>
+
+            <dt>Current Project</dt>
+            <dd>Developing an eCommerce website where only admins can add products.</dd>
+        </dl>
+
+        <img src="profile.jpg" alt="My Profile Picture" width="150" height="150">
     </section>
 
     <!-- Hobbies Section -->
-    <section>
+    <section id="hobbies">
         <h2>My Hobbies & Interests</h2>
         <ul>
             <li>Developing software applications and learning new programming languages.</li>
@@ -39,10 +51,10 @@
     </section>
 
     <!-- Footer Section -->
-    <footer>
+    <footer id="contact">
         <h2>Contact Me</h2>
-        <p>Email: muhammadgalo1166@gmail.com</p>
-        <p>Follow me on social media: @galo_dev</p>
+        <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+        <p>Follow me on social media: <a href="https://twitter.com/johndoe_dev" target="_blank">@johndoe_dev</a></p>
     </footer>
 
 </body>
